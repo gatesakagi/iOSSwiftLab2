@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC50E6EE1E57386300C69FAD /* iOSSwiftLab2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = iOSSwiftLab2.playground; sourceTree = "<group>"; };
 		ECE2B3531E57381600B4B8EF /* iOSSwiftLab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSwiftLab2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE2B3561E57381600B4B8EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECE2B3581E57381600B4B8EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 				ECE2B35D1E57381600B4B8EF /* Assets.xcassets */,
 				ECE2B35F1E57381600B4B8EF /* LaunchScreen.storyboard */,
 				ECE2B3621E57381600B4B8EF /* Info.plist */,
+				EC50E6EE1E57386300C69FAD /* iOSSwiftLab2.playground */,
 			);
 			path = iOSSwiftLab2;
 			sourceTree = "<group>";
@@ -297,6 +299,7 @@
 				ECE2B3671E57381600B4B8EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
