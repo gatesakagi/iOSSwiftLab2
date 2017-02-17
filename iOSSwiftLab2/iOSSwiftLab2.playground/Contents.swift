@@ -97,3 +97,26 @@ func convertToCelsius(fahrenheit: Float) -> String {
     return "\(fahrenheit)℉ = \(celsius)℃"
 }
 convertToCelsius(fahrenheit: 194)
+
+/*
+ a function that takes an array of integers and sorts them into arrays for even and odd integers use tuple to return even array & odd array
+*/
+
+func splitArray(sourceArray:[Int]) -> (oddArray: [Int], evenArray: [Int]) {
+    var oddArray = [Int]()
+    var evenArray = [Int]()
+    for num in sourceArray {
+        if num % 2 == 0 {
+            evenArray += [num]
+        } else {
+            oddArray += [num]
+        }
+    }
+    return(oddArray.sorted(), evenArray.sorted())
+}
+
+let resultSplitArray = splitArray(sourceArray: [1,5,3,20,98,21,45,34,89,76,11,68])
+
+print(resultSplitArray.oddArray, resultSplitArray.evenArray)
+
+
